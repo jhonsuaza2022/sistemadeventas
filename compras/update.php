@@ -17,7 +17,7 @@ include ('../app/controllers/compras/cargar_compra.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Actualización de la compra</h1>
+                    <h1 class="m-0">Actualización de la Compra</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -35,7 +35,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                         <div class="col-md-12">
                             <div class="card card-success">
                                 <div class="card-header">
-                                    <h3 class="card-title">Llene los datos con cuidado</h3>
+                                    <h3 class="card-title">Llene los Datos con Cuidado</h3>
                                     <div class="card-tools">
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                                         </button>
@@ -45,19 +45,19 @@ include ('../app/controllers/compras/cargar_compra.php');
 
                                 <div class="card-body" style="display: block;">
                                     <div style="display: flex">
-                                        <h5>Datos del producto </h5>
+                                        <h5>Datos del Producto </h5>
                                         <div style="width: 20px"></div>
                                         <button type="button" class="btn btn-primary" data-toggle="modal"
                                                 data-target="#modal-buscar_producto">
                                             <i class="fa fa-search"></i>
-                                            Buscar producto
+                                            Buscar Producto
                                         </button>
                                         <!-- modal para visualizar datos de los proveedor -->
                                         <div class="modal fade" id="modal-buscar_producto">
                                             <div class="modal-dialog modal-lg">
                                                 <div class="modal-content">
                                                     <div class="modal-header" style="background-color: #1d36b6;color: white">
-                                                        <h4 class="modal-title">Busqueda del producto</h4>
+                                                        <h4 class="modal-title">Busqueda del Producto</h4>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
                                                         </button>
@@ -256,7 +256,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                                         </div>
                                         <div class="col-md-3">
                                             <div class="form-group">
-                                                <label for="">Imagen del producto</label>
+                                                <label for="">Imagen del Producto</label>
                                                 <center>
                                                     <img src="<?php echo $URL."/almacen/img_productos/".$imagen;?>" id="img_producto" width="50%" alt="">
                                                 </center>
@@ -266,12 +266,12 @@ include ('../app/controllers/compras/cargar_compra.php');
 
                                     <hr>
                                     <div style="display: flex">
-                                        <h5>Datos del proveedor </h5>
+                                        <h5>Datos del Proveedor </h5>
                                         <div style="width: 20px"></div>
                                         <button type="button" class="btn btn-primary" data-toggle="modal"
                                                 data-target="#modal-buscar_proveedor">
                                             <i class="fa fa-search"></i>
-                                            Buscar proveedor
+                                            Buscar Proveedor
                                         </button>
                                         <!-- modal para visualizar datos de los proveedor -->
                                         <div class="modal fade" id="modal-buscar_proveedor">
@@ -290,7 +290,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                                                                 <tr>
                                                                     <th><center>Nro</center></th>
                                                                     <th><center>Selecionar</center></th>
-                                                                    <th><center>Nombre del proveedor</center></th>
+                                                                    <th><center>Nombre del Proveedor</center></th>
                                                                     <th><center>Celular</center></th>
                                                                     <th><center>Teléfono</center></th>
                                                                     <th><center>Empresa</center></th>
@@ -373,7 +373,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <input type="text" value="<?= $id_proveedor_tabla; ?>" id="id_proveedor" hidden>
-                                                    <label for="">Nombre del proveedor </label>
+                                                    <label for="">Nombre del Proveedor </label>
                                                     <input type="text" value="<?= $nombre_proveedor_tabla; ?>" id="nombre_proveedor" class="form-control" disabled>
                                                 </div>
                                             </div>
@@ -427,7 +427,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                         <div class="col-md-12">
                             <div class="card card-outline card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Detalle de la compra</h3>
+                                    <h3 class="card-title">Detalle de la Compra</h3>
                                     <div class="card-tools">
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                             <i class="fas fa-minus"></i>
@@ -440,7 +440,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="">Número de la compra</label>
+                                                <label for="">Número de la Compra</label>
                                                 <input type="text" value="<?php echo $nro_compra; ?>" style="text-align: center" class="form-control" disabled>
                                                 <input type="text" value="<?php echo $nro_compra; ?>" id="nro_compra" hidden>
                                             </div>
@@ -448,28 +448,28 @@ include ('../app/controllers/compras/cargar_compra.php');
 
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="">Fecha de la compra</label>
+                                                <label for="">Fecha de la Compra</label>
                                                 <input type="date" value="<?= $fecha_compra; ?>" class="form-control" id="fecha_compra">
                                             </div>
                                         </div>
 
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="">Comprobante de la compra</label>
+                                                <label for="">Comprobante de la Compra</label>
                                                 <input type="text" value="<?= $comprobante; ?>" class="form-control" id="comprobante">
                                             </div>
                                         </div>
 
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="">Precio de la compra</label>
+                                                <label for="">Precio de la Compra</label>
                                                 <input type="text" value="<?= $precio_compra; ?>" class="form-control" id="precio_compra_controlador">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="">Stock actual</label>
+                                                <label for="">Stock Actual</label>
                                                 <input type="text" value="<?= $stock=$stock-$cantidad; ?>" style="background-color: #fff819;text-align: center" id="stock_actual" class="form-control" disabled>
                                             </div>
                                         </div>
@@ -481,7 +481,7 @@ include ('../app/controllers/compras/cargar_compra.php');
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="">Cantidad de la compra</label>
+                                                <label for="">Cantidad de la Compra</label>
                                                 <input type="number" value="<?= $cantidad; ?>" id="cantidad_compra" style="text-align: center" class="form-control">
                                             </div>
                                             <script>

@@ -17,7 +17,7 @@ include ('../app/controllers/compras/cargar_compra.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Compra nro <?php echo $nro_compra; ?></h1>
+                    <h1 class="m-0">Compra Nro <?php echo $nro_compra; ?></h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
